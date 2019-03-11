@@ -1,0 +1,11 @@
+> Initialized logger
+> Traceback (most recent call last):
+>   File "run.py", line 3, in <module>
+> from serveus import app
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/__init__.py", line 91, in <module>
+> from serveus.darknet import detector
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 49, in <module>
+> from models import db, User, UserType, Case, Key, Image, Database, Chunklist, Chunk, Region, Province, Municipality, ParType, Infection, Patch, Validation
+> ImportError
+> :
+> No module named models

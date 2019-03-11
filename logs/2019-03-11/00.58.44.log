@@ -1,0 +1,13 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 63, in run
+>     self.query()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 80, in query
+>     img = [f for f in os.listdir(str('../upload/'+chunklist.filename)) if f[-4:] == ".jpg" or f[-4:] == ".png"][image.number-1]
+> WindowsError: [Error 3] The system cannot find the path specified: '../upload/20190310_202624_dinmt_9303769_32\\*.*'
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\detector.py', reloading

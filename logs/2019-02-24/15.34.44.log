@@ -1,0 +1,15 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.67 - - [24/Feb/2019 15:41:09] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.67 - - [24/Feb/2019 15:41:09] "POST /api/db/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [24/Feb/2019 15:41:25] "GET /records/1 HTTP/1.1" 200 -
+> 192.168.137.67 - - [24/Feb/2019 15:41:34] "POST /api/validation/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [24/Feb/2019 15:41:49] "GET /case/12/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [24/Feb/2019 15:42:14] "POST /case/12/ HTTP/1.1" 200 -
+> 192.168.137.67 - - [24/Feb/2019 15:42:23] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.67 - - [24/Feb/2019 15:42:23] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.67 - - [24/Feb/2019 15:42:24] "POST /api/validation/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading
+> 192.168.137.67 - - [24/Feb/2019 16:32:48] "POST /api/validation/ HTTP/1.1" 200 -

@@ -1,0 +1,16 @@
+> Initialized logger
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+>  * Restarting with stat
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 69, in run
+>     self.query()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 87, in query
+>     self.detector(str('~/Desktop/remidiv2/upload/'+chunklist.filename)+'/'+img, image.id)
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 111, in detector
+>     savetodb(img_id, jsonfile)
+> NameError: global name 'savetodb' is not defined
+>  * Restarting with stat
+>  * Restarting with stat

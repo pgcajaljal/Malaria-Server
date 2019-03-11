@@ -1,0 +1,15 @@
+<entry>
+  <date-created>2019/02/25</date-created>
+  <time-created>21:15:56</time-created>
+  <latitude>14.6520894</latitude>
+  <longitude>121.0709303</longitude>
+  <specimen>Blood</specimen>
+  <disease>Malaria</disease>
+  <disease-num>1</disease-num>
+  <priority>High</priority>
+  <description>ASAP My computer is in danger! Is it a virus, a worm?</description>
+  <region>NCR - National Capital Region (Metro Manila)</region>
+  <province>Second District</province>
+  <municipality>Quezon City</municipality>
+  <flags>false</flags>
+</entry>

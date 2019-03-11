@@ -1,0 +1,15 @@
+> Initialized logger
+> Traceback (most recent call last):
+>   File "run.py", line 3, in <module>
+> from serveus import app
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/__init__.py", line 91, in <module>
+> from serveus.darknet import detector
+>   File "
+> /home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py
+> ", line
+> 103
+> pro = subprocess.Popen(cmd, cwd="~/Desktop/remidiv2/serveus/darknet, shell = True)
+> ^
+> SyntaxError
+> :
+> EOL while scanning string literal

@@ -1,0 +1,16 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/detector.py", line 67, in run
+>     self.query()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/detector.py", line 85, in query
+>     self.detector(img)
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/detector.py", line 100, in detector
+>     print("CURR AT ", os.cwd())
+> AttributeError: 'module' object has no attribute 'cwd'
+> 127.0.0.1 - - [11/Mar/2019 02:59:58] "GET /records/1 HTTP/1.1" 200 -
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/detector.py', reloading

@@ -1,0 +1,11 @@
+> Initialized logger
+> Traceback (most recent call last):
+>   File "run.py", line 3, in <module>
+> from serveus import app
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\__init__.py", line 92, in <module>
+> detector.main()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 79, in main
+> thread1.start()
+> TypeError
+> :
+> 'float' object is not callable

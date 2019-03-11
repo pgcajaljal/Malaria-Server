@@ -1,0 +1,84 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:768: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [10/Mar/2019 22:57:08] "POST /login/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:768: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [10/Mar/2019 22:57:21] "POST /login/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:768: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:783: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [10/Mar/2019 22:57:31] "POST /login/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:768: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> 127.0.0.1 - - [10/Mar/2019 22:57:57] "POST /login/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:57:57] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [10/Mar/2019 22:57:57] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:01] "GET /admin/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:05] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:09] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:13] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=10 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:14] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=11 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:15] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=12 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:17] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=13 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:19] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=14 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:20] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=15 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:23] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=16 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:29] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=1 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:29] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:33] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=10 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:34] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:35] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=11 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:36] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:38] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=12 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:39] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:41] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=13 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:42] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:44] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=14 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:44] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:46] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=15 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:47] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:50] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=16 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:50] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:58:58] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:21] "GET /admin/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:25] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:28] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=13 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:29] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=14 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:30] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=15 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:31] "GET /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=16 HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:36] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=13 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:36] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:39] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=14 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:39] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:42] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=15 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:42] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:44] "POST /admin/user/edit/?url=%2Fadmin%2Fuser%2F&id=16 HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:45] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 22:59:51] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [10/Mar/2019 23:00:05] "GET /logout/ HTTP/1.1" 302 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:89: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:89: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [10/Mar/2019 23:00:05] "GET /index/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:768: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> 127.0.0.1 - - [10/Mar/2019 23:00:09] "POST /login/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [10/Mar/2019 23:00:10] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [10/Mar/2019 23:00:10] "GET /monitoring/1/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\__init__.py', reloading

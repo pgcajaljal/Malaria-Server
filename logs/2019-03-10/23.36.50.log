@@ -1,0 +1,17 @@
+> Initialized logger
+> Traceback (most recent call last):
+>   File "run.py", line 3, in <module>
+> from serveus import app
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\__init__.py", line 89, in <module>
+> from serveus import views, models, admin
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py", line 41, in <module>
+> from models import db, User, UserType, Case, Key, Image, Database, Chunklist, Chunk, Region, Province, Municipality, ParType, Infection, Patch, Validation
+>   File "
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\models.py
+> ", line
+> 302
+> self.specimen_type = specimen_type
+> ^
+> IndentationError
+> :
+> unexpected indent

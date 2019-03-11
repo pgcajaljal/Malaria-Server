@@ -1,0 +1,9 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/home/aisilverb/Desktop/remidiv2/upload/20190310_202624_dinmt_9303769_32/20190310_202437_slide.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"P. falciparum", "relative_coordinates":{"center_x":0.843246, "center_y":0.476058, "width":0.019445, "height":0.030851}, "confidence":0.676092}
+ ] 
+}
+]

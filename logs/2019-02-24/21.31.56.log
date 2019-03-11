@@ -1,0 +1,226 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.224 - - [24/Feb/2019 21:32:24] "POST /api/init/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:24] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:25] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:29] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:29] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:30] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:30] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:31] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:31] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:31] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:32] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:33] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:33] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:34] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:35] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:35] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:36] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:36] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:37] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:37] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:37] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:38] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:40] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:41] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:41] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:42] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:43] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:43] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:44] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:44] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:45] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:45] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:45] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:46] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:46] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:46] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:46] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:47] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:47] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:47] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:47] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:48] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:48] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:49] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:49] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:49] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:50] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:50] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:50] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:51] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:51] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:51] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:52] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:52] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:52] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:52] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:53] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:53] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:53] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:54] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:54] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:55] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:55] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:56] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:57] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:57] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:58] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:59] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:59] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:32:59] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:00] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:01] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:01] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:02] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:02] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:03] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:04] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:04] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:05] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:05] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:05] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:05] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:06] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:06] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:06] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:07] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:07] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:08] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:08] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:08] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:09] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:09] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:10] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:10] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:11] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:12] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:12] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:12] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:13] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:13] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:13] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:13] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:14] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:15] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:15] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:16] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:16] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:16] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:16] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:17] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:17] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:17] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:18] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:18] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:18] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:19] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:19] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:19] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:21] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:21] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:22] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:22] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:22] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:23] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:23] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:23] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:24] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:24] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:24] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:25] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:25] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:25] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:25] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:26] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:27] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:28] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:29] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:29] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:29] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:30] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:30] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:30] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:31] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:31] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:32] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:32] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:33] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:33] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:33] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:45] "POST /api/chunk/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:46] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 21:33:47] "POST /api/validation/ HTTP/1.1" 500 -
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2309, in __call__
+>     return self.wsgi_app(environ, start_response)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2295, in wsgi_app
+>     response = self.handle_exception(e)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1741, in handle_exception
+>     reraise(exc_type, exc_value, tb)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+>     response = self.full_dispatch_request()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+>     return self.finalize_request(rv)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1831, in finalize_request
+>     response = self.make_response(rv)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1982, in make_response
+>     reraise(TypeError, new_error, sys.exc_info()[2])
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1974, in make_response
+>     rv = self.response_class.force_type(rv, request.environ)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+>     response = BaseResponse(*_run_wsgi_app(response, environ))
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+>     return _run_wsgi_app(*args)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+>     app_rv = app(environ, start_response)
+> TypeError: 'dict' object is not callable
+> The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a dict.
+> 192.168.137.224 - - [24/Feb/2019 21:33:47] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 22:32:23] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.224 - - [24/Feb/2019 22:32:23] "POST /api/validation/ HTTP/1.1" 500 -
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2309, in __call__
+>     return self.wsgi_app(environ, start_response)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2295, in wsgi_app
+>     response = self.handle_exception(e)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1741, in handle_exception
+>     reraise(exc_type, exc_value, tb)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+>     response = self.full_dispatch_request()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+>     return self.finalize_request(rv)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1831, in finalize_request
+>     response = self.make_response(rv)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1982, in make_response
+>     reraise(TypeError, new_error, sys.exc_info()[2])
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1974, in make_response
+>     rv = self.response_class.force_type(rv, request.environ)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+>     response = BaseResponse(*_run_wsgi_app(response, environ))
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+>     app_rv = app(environ, start_response)
+> TypeError: 'dict' object is not callable
+> The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a dict.
+> 192.168.137.224 - - [24/Feb/2019 22:32:23] "POST /api/db/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading

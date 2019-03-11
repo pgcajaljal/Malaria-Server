@@ -1,0 +1,160 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.60 - - [11/Mar/2019 11:58:23] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 11:58:24] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 11:58:28] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:00:11] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:00:12] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:00:13] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:01:59] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:01:59] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:02:00] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:11] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:12] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:12] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:13] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:13] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:06:13] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:07:14] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:07:14] "POST /api/validation/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:15:35] "GET /pic/25 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:15:41] "GET /pic/25/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:16:31] "GET /pic/25/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:18:15] "GET /pic/25/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:22:26] "GET /pic/25/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:22:39] "POST /case/4/ HTTP/1.1" 200 -
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 596, in process_request_thread
+>     self.finish_request(request, client_address)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 331, in finish_request
+>     self.RequestHandlerClass(request, client_address, self)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 654, in __init__
+>     self.finish()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 713, in finish
+>     self.wfile.close()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 283, in close
+>     self.flush()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 307, in flush
+>     self._sock.sendall(view[write_offset:write_offset+buffer_size])
+> error: [Errno 10053] An established connection was aborted by the software in your host machine
+> 127.0.0.1 - - [11/Mar/2019 12:22:40] "POST /case/4/ HTTP/1.1" 500 -
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2309, in __call__
+>     return self.wsgi_app(environ, start_response)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2295, in wsgi_app
+>     response = self.handle_exception(e)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1741, in handle_exception
+>     reraise(exc_type, exc_value, tb)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+>     response = self.full_dispatch_request()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+>     rv = self.handle_user_exception(e)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+>     reraise(exc_type, exc_value, tb)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+>     rv = self.dispatch_request()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+>     return self.view_functions[rule.endpoint](**req.view_args)
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py", line 659, in case
+>     os.remove('malaria.pdf')
+> WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'malaria.pdf'
+> 127.0.0.1 - - [11/Mar/2019 12:22:47] "GET /case/4/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:22:47] "GET /case/4/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:22:48] "GET /case/4/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 596, in process_request_thread
+>     self.finish_request(request, client_address)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 331, in finish_request
+>     self.RequestHandlerClass(request, client_address, self)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 654, in __init__
+>     self.finish()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 713, in finish
+>     self.wfile.close()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 283, in close
+>     self.flush()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 307, in flush
+>     self._sock.sendall(view[write_offset:write_offset+buffer_size])
+> error: [Errno 10053] An established connection was aborted by the software in your host machine
+> 127.0.0.1 - - [11/Mar/2019 12:34:02] "GET /logout/ HTTP/1.1" 302 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:90: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:90: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [11/Mar/2019 12:34:04] "GET /index/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:12] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:12] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:12] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:19] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:19] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:34:19] "POST /api/db/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [11/Mar/2019 12:34:44] "POST /login/ HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> 127.0.0.1 - - [11/Mar/2019 12:34:52] "POST /login/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [11/Mar/2019 12:34:52] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:34:54] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:00] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:05] "GET /case/3/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:05] "GET /thumb/pic/17 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/18 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/19 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/20 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/21 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/22 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:06] "GET /thumb/pic/24 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:07] "GET /thumb/pic/23 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/18/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/17/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/19/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/21/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/22/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/20/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/24/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:13] "GET /thumb/pic/23/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:19] "GET /pic/17 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:20] "GET /pic/17/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:32] "GET /pic/18 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:32] "GET /pic/18/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:38] "GET /pic/19 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:38] "GET /pic/19/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:48] "GET /pic/20 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:48] "GET /pic/20/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:59] "GET /pic/23 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:35:59] "GET /pic/23/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 12:36:36] "GET /pic/24 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 12:36:36] "GET /pic/24/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:31] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:33] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:35] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:35] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:35] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:36] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:37:36] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:43] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:43] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:43] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:44] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:44] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:46] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:46] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:46] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:47] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:47] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:47] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:50] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:50] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.60 - - [11/Mar/2019 12:42:50] "POST /api/db/ HTTP/1.1" 200 -

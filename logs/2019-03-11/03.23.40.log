@@ -1,0 +1,7 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> /usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/compiler.py:763: SAWarning: Can't resolve label reference u'"case".description desc'; converting to text() (this warning may be suppressed after 10 occurrences)
+>   util.ellipses_string(element.element),
+> 127.0.0.1 - - [11/Mar/2019 03:23:43] "GET /records/1?parasite_selection=&region_selection=&province_selection=&municipality_selection=&microscopist_selection=&date_start=The+Beginning&date_end=Today&description=&sort_by=description&order=desc&page=1 HTTP/1.1" 200 -
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/detector.py', reloading

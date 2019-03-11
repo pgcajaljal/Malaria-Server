@@ -1,0 +1,5 @@
+classes=2
+train = thin_train.txt
+valid = thin_test.txt
+names = thin_names.names
+backup = thin_backup

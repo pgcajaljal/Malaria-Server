@@ -1,0 +1,8 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [03/Mar/2019 22:56:43] "GET / HTTP/1.1" 302 -
+> 127.0.0.1 - - [03/Mar/2019 22:56:46] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 22:57:00] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 22:57:08] "GET /case/5/ HTTP/1.1" 200 -

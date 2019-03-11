@@ -1,0 +1,18 @@
+[
+{
+ "frame_id":1, 
+ "filename":"smp.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"P. falciparum", "relative_coordinates":{"center_x":0.802427, "center_y":0.727742, "width":0.022497, "height":0.046497}, "confidence":0.499804}
+ ] 
+}
+][
+{
+ "frame_id":1, 
+ "filename":"scream.jpg", 
+ "objects": [ 
+
+ ] 
+}
+]temp.txt
+temp.txt

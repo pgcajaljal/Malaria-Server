@@ -1,0 +1,14 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 63, in run
+>     self.query()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 77, in query
+>     print("yip", chunklist.filename, image.id, image.case_id, image.prelim_diagnosis)
+> NameError: global name 'chunklist' is not defined
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\detector.py', reloading

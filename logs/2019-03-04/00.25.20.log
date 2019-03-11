@@ -1,0 +1,11 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [04/Mar/2019 00:26:10] "GET / HTTP/1.1" 302 -
+> 127.0.0.1 - - [04/Mar/2019 00:26:11] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [04/Mar/2019 00:26:14] "GET /static/favicon.ico HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 00:27:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 00:27:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 00:27:31] "POST /api/db/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading

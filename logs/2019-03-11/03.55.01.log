@@ -1,0 +1,19 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 69, in run
+>     self.query()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 87, in query
+>     self.detector(img)
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 103, in detector
+>     pro = subprocess.Popen(cmd.split(), cwd="~/Desktop/remidiv2/serveus/darknet", shell = True)
+>   File "/usr/lib/python2.7/subprocess.py", line 394, in __init__
+>     errread, errwrite)
+>   File "/usr/lib/python2.7/subprocess.py", line 1047, in _execute_child
+>     raise child_exception
+> OSError: [Errno 2] No such file or directory: '~/Desktop/remidiv2/serveus/darknet'
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py', reloading

@@ -1,0 +1,9 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> 127.0.0.1 - - [11/Mar/2019 03:14:38] "GET /case/5/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:14:38] "GET /thumb/pic/27 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 03:14:38] "GET /thumb/pic/26 HTTP/1.1" 301 -
+> 127.0.0.1 - - [11/Mar/2019 03:14:42] "GET /thumb/pic/27/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:14:43] "GET /thumb/pic/26/ HTTP/1.1" 200 -
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/detector.py', reloading

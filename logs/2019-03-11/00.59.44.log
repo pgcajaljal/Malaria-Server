@@ -1,0 +1,14 @@
+> Initialized logger
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 59, in run
+>     self.system()
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\detector.py", line 92, in system
+>     return false
+> NameError: global name 'false' is not defined
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\detector.py', reloading

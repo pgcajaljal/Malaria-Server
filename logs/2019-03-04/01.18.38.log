@@ -1,0 +1,20 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.204 - - [04/Mar/2019 01:19:32] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:32] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:32] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:34] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:35] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:19:35] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:21:17] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:21:17] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:21:17] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:21:18] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:21:18] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:24:58] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:24:58] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:24:58] "POST /api/validation/ HTTP/1.1" 200 -

@@ -1,0 +1,18 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:98: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   changepass_form = ChangePassForm()
+> 127.0.0.1 - - [11/Mar/2019 03:31:08] "GET /profilepage/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:14] "GET /admin/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/bootstrap/bootstrap2/css/bootstrap.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/bootstrap/bootstrap2/css/bootstrap-responsive.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/vendor/jquery-2.1.1.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/vendor/moment-2.8.4.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/bootstrap/bootstrap2/js/bootstrap.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/admin/css/bootstrap2/admin.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:15] "GET /favicon.ico HTTP/1.1" 404 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:22] "GET / HTTP/1.1" 302 -
+> 127.0.0.1 - - [11/Mar/2019 03:31:22] "GET /monitoring/1/ HTTP/1.1" 200 -
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/detector.py', reloading

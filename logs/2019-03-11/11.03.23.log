@@ -1,0 +1,17 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> Exception in thread Malaria Detection:
+> Traceback (most recent call last):
+>   File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+>     self.run()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 69, in run
+>     self.query()
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 87, in query
+>     self.detector(str('~/Desktop/remidiv2/upload/'+chunklist.filename)+'/'+img, image.id)
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 111, in detector
+>     self.savetodb(img_id, jsonfile)
+>   File "/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py", line 116, in savetodb
+>     f = open("./serveus.darknet"+jsonfile, 'r')
+> IOError: [Errno 2] No such file or directory: './serveus.darknetjsonfile.txt'
+>  * Detected change in '/home/aisilverb/Desktop/remidiv2/serveus/darknet/detector.py', reloading

@@ -1,0 +1,46 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [25/Feb/2019 16:37:44] "GET / HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [25/Feb/2019 16:37:44] "GET / HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:49] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:49] "GET /static/js/sha1.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:49] "GET /static/js/jquery.js HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:763: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> 127.0.0.1 - - [25/Feb/2019 16:37:59] "POST /login/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [25/Feb/2019 16:37:59] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /static/css/eyecon-datepicker.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /static/images/loading.gif HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /static/js/eyecon-datepicker.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:00] "GET /static/images/bar.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /admin/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/bootstrap/bootstrap2/css/bootstrap.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/admin/css/bootstrap2/admin.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/bootstrap/bootstrap2/css/bootstrap-responsive.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/vendor/moment-2.8.4.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/bootstrap/bootstrap2/js/bootstrap.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:06] "GET /static/vendor/jquery-2.1.1.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:07] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:16] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:18] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:20] "GET /logout/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [25/Feb/2019 16:38:20] "GET /index HTTP/1.1" 301 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [25/Feb/2019 16:38:21] "GET /index/ HTTP/1.1" 200 -

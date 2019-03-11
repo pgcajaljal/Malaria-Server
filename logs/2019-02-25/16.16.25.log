@@ -1,0 +1,8 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [25/Feb/2019 16:16:27] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:16:30] "GET /admin/user/new/?url=%2Fadmin%2Fuser%2F HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 16:17:03] "POST /admin/user/new/?url=%2Fadmin%2Fuser%2F HTTP/1.1" 302 -
+> 127.0.0.1 - - [25/Feb/2019 16:17:04] "GET /admin/user/ HTTP/1.1" 200 -

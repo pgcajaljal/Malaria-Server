@@ -1,0 +1,15 @@
+<entry>
+  <date-created>2019/03/10</date-created>
+  <time-created>20:26:24</time-created>
+  <latitude>14.4449169</latitude>
+  <longitude>120.9136649</longitude>
+  <specimen>Blood</specimen>
+  <disease>Malaria</disease>
+  <disease-num>1</disease-num>
+  <priority>High</priority>
+  <description>R u an anti-vivax parent!?</description>
+  <region>Region IV-A (Calabarzon)</region>
+  <province>Cavite</province>
+  <municipality>Kawit</municipality>
+  <flags>false</flags>
+</entry>

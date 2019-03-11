@@ -1,0 +1,5 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> 127.0.0.1 - - [11/Mar/2019 03:26:29] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [11/Mar/2019 03:26:35] "GET /case/7/ HTTP/1.1" 200 -

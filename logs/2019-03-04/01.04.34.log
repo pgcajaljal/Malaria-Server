@@ -1,0 +1,27 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.204 - - [04/Mar/2019 01:05:03] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:03] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:03] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:07] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:07] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:08] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:08] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:05:09] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:05] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:06] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:06] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:31] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:32] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:43] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:44] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:09:44] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:10:03] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:10:03] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:10:32] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:10:33] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.204 - - [04/Mar/2019 01:10:33] "POST /api/db/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading

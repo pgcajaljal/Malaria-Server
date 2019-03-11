@@ -1,0 +1,9 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [25/Feb/2019 15:23:38] "GET /admin/user/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 15:23:46] "GET /admin/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 15:23:50] "GET /admin/usertype/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [25/Feb/2019 15:23:55] "GET /admin/user/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\admin.py', reloading

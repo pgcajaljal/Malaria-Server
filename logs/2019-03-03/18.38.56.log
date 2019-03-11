@@ -1,0 +1,74 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [03/Mar/2019 18:45:52] "GET / HTTP/1.1" 302 -
+> 127.0.0.1 - - [03/Mar/2019 18:45:53] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [03/Mar/2019 18:45:56] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:03] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:03] "GET /static/css/eyecon-datepicker.css HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:04] "GET /static/js/jquery.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:04] "GET /static/js/eyecon-datepicker.js HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:05] "GET /static/images/loading.gif HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:06] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:46:08] "GET /static/images/bar.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:48:36] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:01] "GET /case/5/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:01] "GET /case/5/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:01] "GET /case/5/ HTTP/1.1" 200 -
+> Traceback (most recent call last):
+> Traceback (most recent call last):
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 596, in process_request_thread
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 596, in process_request_thread
+>     self.finish_request(request, client_address)
+>     self.finish_request(request, client_address)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 331, in finish_request
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 331, in finish_request
+>     self.RequestHandlerClass(request, client_address, self)
+>     self.RequestHandlerClass(request, client_address, self)
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 654, in __init__
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 654, in __init__
+>     self.finish()
+>     self.finish()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 713, in finish
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\SocketServer.py", line 713, in finish
+>     self.wfile.close()
+>     self.wfile.close()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 283, in close
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 283, in close
+>     self.flush()
+>     self.flush()
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 307, in flush
+>   File "C:\Users\gherz-PC\Anaconda3\envs\py27\lib\socket.py", line 307, in flush
+>     self._sock.sendall(view[write_offset:write_offset+buffer_size])
+>     self._sock.sendall(view[write_offset:write_offset+buffer_size])
+> error: [Errno 10053] An established connection was aborted by the software in your host machine
+> error: [Errno 10053] An established connection was aborted by the software in your host machine
+> 127.0.0.1 - - [03/Mar/2019 18:49:02] "GET /thumb/pic/26 HTTP/1.1" 301 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:02] "GET /thumb/pic/27 HTTP/1.1" 301 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:07] "GET /thumb/pic/26/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:07] "GET /thumb/pic/27/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:11] "GET /pic/27 HTTP/1.1" 301 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:11] "GET /pic/27/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+> 127.0.0.1 - - [03/Mar/2019 18:49:31] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:34] "GET /case/5/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:45] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:45] "GET /logout/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:45] "GET /index HTTP/1.1" 301 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:84: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [03/Mar/2019 18:52:46] "GET /index/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:46] "GET /static/js/sha1.js HTTP/1.1" 200 -
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py:763: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> 127.0.0.1 - - [03/Mar/2019 18:52:54] "POST /login/ HTTP/1.1" 302 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:54] "GET /monitoring/1 HTTP/1.1" 301 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:55] "GET /monitoring/1/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:52:58] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [03/Mar/2019 18:53:02] "GET /case/5/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading
