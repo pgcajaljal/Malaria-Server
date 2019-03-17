@@ -1,0 +1,13 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 192.168.137.31 - - [13/Mar/2019 10:21:25] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:25] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:27] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:27] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:27] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:39] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:39] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.31 - - [13/Mar/2019 10:21:39] "POST /api/db/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\models.py', reloading

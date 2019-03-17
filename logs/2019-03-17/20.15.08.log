@@ -1,0 +1,15 @@
+> Initialized logger
+> Traceback (most recent call last):
+>   File "run.py", line 3, in <module>
+> from serveus import app
+>   File "C:\Users\gherz-PC\Desktop\remidiv2\serveus\__init__.py", line 89, in <module>
+> from serveus import views, models, admin
+>   File "
+> C:\Users\gherz-PC\Desktop\remidiv2\serveus\views.py
+> ", line
+> 1087
+> draw_rectangle(draw, ((tx, ty), (text_size[0], text_size[1]))), color = boxColor, width = 15)
+> ^
+> SyntaxError
+> :
+> invalid syntax

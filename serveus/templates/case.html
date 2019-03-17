@@ -29,18 +29,19 @@
                             <h4 style="padding-left: 0.5%">Preliminary Diagnosis</h4>
                             <table class="table table-condensed table-bordered" style="width: 100%">
                                <!--  <tr><th class="span2">Lorem<td class="span4">{{case.validator}}<th class="span2">Ipsum<td class="span4">{{case.validator_contacts}} -->
-                                <tr><th class="span2">Diagnosis<td colspan="3">{{case.parasite_validator}}
-                                <tr><th>Remarks<td colspan="3">{{case.description_validator}}
-                                {% if user.is_doctor() %}<tr><td colspan="4" style="text-align: left"><a href="#">View validation history...</a>{% endif %}
+                                <tr><th class="span2">Diagnosis   <td class="span10">{{MLDiagnosis}}
+                                <tr><th>Number of Detections      <td class="span10">{{MLDetections}}
+                                <tr><th>Score                     <td class="span10">{{MLScore}}
+                                <tr><th>Species Detected          <td class="span10">{{MLSpecies}}
                             </table>
                         </div>
-                        
+
                         <div class="container-fluid" style="background-color: ; padding: 0">
                             <h4 style="padding-left: 0.5%">Validation</h4>
                             <table class="table table-condensed table-bordered" style="width: 100%">
                                 <tr><th class="span2">Validator<td class="span4">{{case.validator}}<th class="span2">Contact Details<td class="span4">{{case.validator_contacts}}
-                                <tr><th>Diagnosis<td colspan="3">{{case.parasite_validator}}
-                                <tr><th>Remarks<td colspan="3">{{case.description_validator}}
+                                <tr><th>Diagnosis                 <td colspan="3">{{case.parasite_validator}}
+                                <tr><th>Remarks                   <td colspan="3">{{case.description_validator}}
                                 {% if user.is_doctor() %}<tr><td colspan="4" style="text-align: left"><a href="#">View validation history...</a>{% endif %}
                             </table>
                         </div>
@@ -93,8 +94,15 @@
 										<input class="pull-left" type="checkbox" name="checkbox_{{loop.index0}}" id="chkbox_{{loop.index0}}" onchange="toggleSelectAll({{loop.index0}})">
 										<p>&nbsp;Image #{{j}}</p>
 										<!-- <a href="/{{i}}" id="link_{{loop.index0}}" target="_blank" class="thumbnail" > -->
-                                          <img src="/thumb/{{i}}" alt="" id="case_img_/{{i}}" onclick="img_click(this.id)">
-                                        <!-- </a> -->
+                                      <!-- hardcoded value for malaria infection -->
+                                      {% if case.infection_id == 1 %} 
+                                        <img src="/MLpic/{{i[4:]}}" alt="" id="case_img_/{{i}}" onclick="img_click(this.id, 'MLpic/{{i[4:]}}')">
+                                      {% else %}
+                                          <a href="/{{i}}" id="link_{{loop.index0}}" target="_blank" class="thumbnail" >
+                                            <img src="/thumb/{{i}}" alt="">
+                                          </a>
+                                      {% endif %}
+                                      <!-- </a> -->
                                     </div>
                                      {% if loop.index0 == (loop.length-1) %}
                                           <script>
@@ -183,7 +191,11 @@
         <table style="width: 80%">
             <tr>
                 <td style="background-color: black; width: 75%">
-                    <img class="modal-content" id="img01" style="">
+                    <a href="#" target="_blank" class="thumbnail">
+                      <img class="modal-content" id="img01" style="">
+                      <!-- <img src="/thumb/{{i}}" alt=""> -->
+                    </a>
+
                     <div id="myresult" class="img-zoom-result"></div>
                 </td>
                 <td style="background-color: white; width: 25%; padding: 20px">
@@ -214,11 +226,13 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-function img_click(clicked_id)
+function img_click(clicked_id, j)
 {
     modal.style.display = "block";
     modalImg.src = document.getElementById(clicked_id).getAttribute("src");
-    captionText.innerHTML = this.alt;
+
+    modalImg.parentElement.href ="/"+j;
+    // captionText.innerHTML = this.alt;
 }
 
 
