@@ -993,11 +993,15 @@ def update_db():
 		date_string = request.form['message']
 		# print date_string
 		# if sent date < modified date
-		if Database.need_update(date_string):
-		# if True:
+		ts_epoch = os.path.getmtime('main.db')
+		lastUpdate = datetime.datetime.fromtimestamp(ts_epoch)
+		# print(here)
+		# if Database.need_update(date_string):
+		year, month, day, hours, minutes, seconds = map(int, date_string.split('-'))
+		if lastUpdate > datetime.datetime(year, month, day, hours, minutes, seconds):
 			print("DB Needs Updating")
+			shutil.copy("main.db", "updated.db")
 			conn = sqlite3.connect('updated.db')
-			# conn = sqlite3.connect('main.db')
 			c = conn.cursor()
 			c.execute("DELETE FROM user")
 			for user in User.query.all():

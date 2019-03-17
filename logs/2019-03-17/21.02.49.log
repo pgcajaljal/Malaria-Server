@@ -1,0 +1,36 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 456-115-780
+>  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+> 127.0.0.1 - - [17/Mar/2019 21:02:56] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:02:58] "GET /static/favicon.ico HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:04] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:04] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:04] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:17] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:17] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:17] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:18] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:18] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:22] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:22] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:22] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:28] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:28] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:28] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:30] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:30] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:03:30] "POST /api/db/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:03:35] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:03:36] "GET /static/favicon.ico HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:04] "POST /api/db/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:04] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:04] "POST /api/validation/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:04:07] "GET /records/1 HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:04:07] "GET /static/favicon.ico HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:04:14] "GET /case/7/ HTTP/1.1" 200 -
+> 127.0.0.1 - - [17/Mar/2019 21:04:16] "GET /MLpic/29/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:50] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:50] "POST /api/validation/ HTTP/1.1" 200 -
+> 192.168.137.220 - - [17/Mar/2019 21:04:51] "POST /api/db/ HTTP/1.1" 200 -
+>  * Detected change in 'C:\\Users\\gherz-PC\\Desktop\\remidiv2\\serveus\\views.py', reloading
