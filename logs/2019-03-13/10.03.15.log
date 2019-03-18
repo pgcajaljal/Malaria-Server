@@ -1,0 +1,41 @@
+> Initialized logger
+>  * Debugger is active!
+>  * Debugger PIN: 132-496-986
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:90: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:90: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm())
+> 127.0.0.1 - - [13/Mar/2019 10:03:42] "GET / HTTP/1.1" 200 -
+> 127.0.0.1 - - [13/Mar/2019 10:03:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+> 127.0.0.1 - - [13/Mar/2019 10:03:48] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 -
+> 127.0.0.1 - - [13/Mar/2019 10:03:48] "GET /static/js/jquery.js HTTP/1.1" 304 -
+> 127.0.0.1 - - [13/Mar/2019 10:03:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+> 127.0.0.1 - - [13/Mar/2019 10:03:49] "GET /static/js/sha1.js HTTP/1.1" 304 -
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [13/Mar/2019 10:03:58] "POST /login/ HTTP/1.1" 200 -
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [13/Mar/2019 10:04:24] "POST /login/ HTTP/1.1" 200 -
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [13/Mar/2019 10:04:30] "POST /login/ HTTP/1.1" 200 -
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:769: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   form = LoginForm()
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> /home/aisilverb/Desktop/remidiv2/serveus/views.py:784: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+>   return render_template("index.html",login_form = LoginForm(), recovery_form = RecoveryForm(), error_message = error_message)
+> 127.0.0.1 - - [13/Mar/2019 10:08:53] "POST /login/ HTTP/1.1" 200 -

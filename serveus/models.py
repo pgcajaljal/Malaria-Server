@@ -256,8 +256,9 @@ class Database(db.Model):
 	@staticmethod
 	def need_update(app_db_date):
 		year, month, day, hours, minutes, seconds = map(int, app_db_date.split('-'))
+		print("Database last updated on " + str(Database.query.first().modified))
 		return Database.query.first().modified > datetime.datetime(year, month, day, hours, minutes, seconds)
-
+	
 	def __repr__(self):
 		return '<Database %r>' % self.id
 

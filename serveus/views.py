@@ -59,11 +59,6 @@ def get_labeler():
 def get_localadmin():
 	return UserType.query.filter(UserType.name == 'Local Administrator').first()
 
-
-
-
-
-
 """Allows only UserTypes in list parameter."""
 def allowed(types=[]):
 	def decorator(function):
@@ -561,6 +556,41 @@ def case(id):
 	for img in case.images:
 		images.append((img.number, 'pic/' + str(img.id)))
 	images = sorted(images)
+
+
+	# if case is malaria
+	MLDiagnosis = "NEGATIVE"
+	MLScore = 0
+	MLDetections = 0
+	MLSpecies = []
+	if case.infection_id == 1:
+		for img in case.images:
+			if img.prelim_diagnosis == "":
+				MLDiagnosis = "PENDING"
+				break
+			pd = json.loads(img.prelim_diagnosis)
+			print("HERE",pd["objects"])
+			for box in pd["objects"]:
+				# print("HERE")
+				print(box)
+				try:
+					print("HERE",box['confidence'])
+					MLScore += box["confidence"]
+					if box["name"] not in MLSpecies:
+						MLSpecies += [box["name"]]
+					MLDetections += 1
+				except Exception as e:
+					print(e)
+					# pass
+	if MLScore != 0 and MLDetections != 0:
+		MLDiagnosis = "POSITIVE"
+		MLScore = str(round(((MLScore / MLDetections) * 100), 2)) + "%"
+		MLSpecies = ", ".join(MLSpecies)
+	else:
+		MLScore = "0.00%"
+		MLSpecies = "None"
+
+
 	# Print out of case
 	if request.method == 'POST':
 		if 'choice' in request.form and request.form['choice'] == 'Submit':
@@ -661,7 +691,7 @@ def case(id):
 			response.headers["Content-Disposition"] = "attachment; filename=malaria.pdf"
 			return response
 	# location = geocoder.reverse((case.lat, case.lng)).address
-	return render_template("case.html", case = case, user = current_user, images=images, disease_list=disease_list, specimen_types=specimen_types, hide_microscopist=app.config['HIDE_MICROSCOPIST_FROM_VALIDATOR'])
+	return render_template("case.html", MLDiagnosis = MLDiagnosis, MLScore = MLScore, MLDetections = MLDetections, MLSpecies = MLSpecies, case = case, user = current_user, images=images, disease_list=disease_list, specimen_types=specimen_types, hide_microscopist=app.config['HIDE_MICROSCOPIST_FROM_VALIDATOR'])
 
 @app.route('/download/',  methods = ['GET', 'POST'])
 @login_required
@@ -959,12 +989,19 @@ def update_db():
 		</form>
 		'''
 	elif request.method == 'POST':
+		print("Request.form['message'] = " + request.form['message'])
 		date_string = request.form['message']
 		# print date_string
 		# if sent date < modified date
-		if Database.need_update(date_string):
+		ts_epoch = os.path.getmtime('main.db')
+		lastUpdate = datetime.datetime.fromtimestamp(ts_epoch)
+		# print(here)
+		# if Database.need_update(date_string):
+		year, month, day, hours, minutes, seconds = map(int, date_string.split('-'))
+		if lastUpdate > datetime.datetime(year, month, day, hours, minutes, seconds):
+			print("DB Needs Updating")
+			shutil.copy("main.db", "updated.db")
 			conn = sqlite3.connect('updated.db')
-			# conn = sqlite3.connect('main.db')
 			c = conn.cursor()
 			c.execute("DELETE FROM user")
 			for user in User.query.all():
@@ -1002,6 +1039,73 @@ def update_apk():
 		else:
 			return 'OK'
 
+"""Returns the ML JPG requested."""
+@app.route('/MLpic/<int:picture_id>/', methods=['GET'])
+def fetch_MLimage(picture_id):
+	# additional imports
+	from PIL import Image as imagesx, ImageDraw, ImageFont
+	import StringIO	
+
+	# Retrieving image for modification
+	x = Image.query.get(picture_id)
+	buff = StringIO.StringIO()
+	buff.write(x.im)
+	largeimg = imagesx.open(buff)
+
+	# Boxes, species, percentage
+	if x.prelim_diagnosis != None:
+		pd = json.loads(x.prelim_diagnosis)
+		for box in pd["objects"]:
+			try:
+				species = box["name"]
+				score = box["confidence"]				
+				draw = ImageDraw.Draw(largeimg)
+				coords = box["relative_coordinates"]
+				cx = coords["center_x"]
+				cy = coords["center_y"]
+				w = coords["width"]
+				h = coords["height"]
+				width, height = largeimg.size
+				x = (cx - w/2) * width
+				y = (cy - h/2) * height
+
+				# Color-coded by score
+				boxColor = (int(255 * (1 - (score ** 2))), int(255 * (score ** 2)), 0)
+				draw_rectangle(draw, ((x, y), (x + (w * width), y + (h * height))), color = boxColor, width = 15)
+				
+				# Specie and score (Pf, Pv)
+				font = ImageFont.truetype("arial.ttf", 100)
+				text = species[0]+species[3]+": "+str(round(score*100,2))+"%"
+				text_size = font.getsize(text)
+				padding = 20
+				tx = x - padding*6
+				ty = y - text_size[1] - padding
+
+				# if box exceeds image boundaries
+				if (tx < 0):	tx = 0
+				if (ty < 0):	ty = 0
+				if (tx > width):	tx = tx - text_size[0] + padding
+				if (ty > width): 	ty = ty - text_size[1] + padding
+
+				draw.rectangle(((tx, ty), (tx+text_size[0] + padding, ty+text_size[1] + padding)), fill = boxColor)
+				draw.text((tx, ty), text, font=font)
+			except Exception as e:
+				print(e)		# There are no detected objects in the image.
+				pass
+
+	# Modified image back for sending	
+	file = StringIO.StringIO()
+	largeimg.save(file, "JPEG")
+	response = make_response(file.getvalue())
+	response.headers['Content-Type'] = 'image/jpeg'
+	return response
+
+def draw_rectangle(draw, coordinates, color = "#FFFFFF", width=10):
+    for i in range(width):
+        rect_start = (coordinates[0][0] - i, coordinates[0][1] - i)
+        rect_end = (coordinates[1][0] + i, coordinates[1][1] + i)
+        draw.rectangle((rect_start, rect_end), outline = color)
+
 """Returns the JPG requested."""
 @app.route('/pic/<int:picture_id>/', methods=['GET'])
 def fetch_image(picture_id):
@@ -1012,6 +1116,7 @@ def fetch_image(picture_id):
 	response = make_response(x.im)
 	response.headers['Content-Type'] = 'image/jpeg'
 	return response
+
 '''	
 @app.route('/log/<string:date>\<string:time>/', methods=['GET'])
 def view_log(date, time):
